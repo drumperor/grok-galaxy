@@ -1,0 +1,3004 @@
+[
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "abc12345",
+    "ulular_approval": "def67890",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER",
+          "STAR_VERI_ANALIZI"
+        ],
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI",
+          "STAR_VERI_ANALIZI"
+        ],
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI",
+          "STAR_BROWSER"
+        ],
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T00:58:00.123456",
+    "ulular_approved": true
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "tempo": 120
+        },
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 80 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 5432 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_GALAXY_CONTROL_20250801_16180339": {
+        "name": "Galaxy Control",
+        "capabilities": [
+          "sistem_yonetimi",
+          "guvenlik_kontrolu"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339",
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KOD_DERVISI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8080 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "orchestra",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_SOHBET_GEZEGENI_20250801_16180339": {
+        "name": "Sohbet Gezegeni",
+        "capabilities": [
+          "realtime_mesajlasma",
+          "kullanici_yonetimi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8081 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "percussion",
+          "notes": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "tempo": 140
+        },
+        "status": "active"
+      },
+      "STAR_HIKAYE_DOKUMA_20250801_16180339": {
+        "name": "Hikaye Dokuma AI",
+        "capabilities": [
+          "hikaye_olusturma",
+          "kisisellestirme"
+        ],
+        "allowed_connections": [
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8007 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "harp",
+          "notes": [
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_GELISIM_HARITASI_20250801_16180339": {
+        "name": "Gelişim Haritası AI",
+        "capabilities": [
+          "gelisim_takibi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8008 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_KESIF_SANDIGI_20250801_16180339": {
+        "name": "AR Keşif Sandığı",
+        "capabilities": [
+          "artirilmis_gerceklik",
+          "egitim_gorevleri"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_KOD_DERVISI_20250801_16180339": {
+        "name": "Kod Dervişi",
+        "capabilities": [
+          "kod_analizi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_GOZLEMCI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8010 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "guitar",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "A4"
+          ],
+          "tempo": 115
+        },
+        "status": "active"
+      },
+      "STAR_GOZLEMCI_20250801_16180339": {
+        "name": "Gözlemci Raporları",
+        "capabilities": [
+          "kod_degerlendirme",
+          "rapor_olusturma"
+        ],
+        "allowed_connections": [
+          "STAR_KOD_DERVISI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8011 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "cello",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 105
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T03:52:47.774909",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "tempo": 120
+        },
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 80 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 5432 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_GALAXY_CONTROL_20250801_16180339": {
+        "name": "Galaxy Control",
+        "capabilities": [
+          "sistem_yonetimi",
+          "guvenlik_kontrolu"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339",
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KOD_DERVISI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8080 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "orchestra",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_SOHBET_GEZEGENI_20250801_16180339": {
+        "name": "Sohbet Gezegeni",
+        "capabilities": [
+          "realtime_mesajlasma",
+          "kullanici_yonetimi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8081 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "percussion",
+          "notes": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "tempo": 140
+        },
+        "status": "active"
+      },
+      "STAR_HIKAYE_DOKUMA_20250801_16180339": {
+        "name": "Hikaye Dokuma AI",
+        "capabilities": [
+          "hikaye_olusturma",
+          "kisisellestirme"
+        ],
+        "allowed_connections": [
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8007 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "harp",
+          "notes": [
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_GELISIM_HARITASI_20250801_16180339": {
+        "name": "Gelişim Haritası AI",
+        "capabilities": [
+          "gelisim_takibi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8008 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_KESIF_SANDIGI_20250801_16180339": {
+        "name": "AR Keşif Sandığı",
+        "capabilities": [
+          "artirilmis_gerceklik",
+          "egitim_gorevleri"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_KOD_DERVISI_20250801_16180339": {
+        "name": "Kod Dervişi",
+        "capabilities": [
+          "kod_analizi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_GOZLEMCI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8010 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "guitar",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "A4"
+          ],
+          "tempo": 115
+        },
+        "status": "active"
+      },
+      "STAR_GOZLEMCI_20250801_16180339": {
+        "name": "Gözlemci Raporları",
+        "capabilities": [
+          "kod_degerlendirme",
+          "rapor_olusturma"
+        ],
+        "allowed_connections": [
+          "STAR_KOD_DERVISI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8011 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "cello",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 105
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T03:53:41.813565",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "tempo": 120
+        },
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 80 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 5432 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_GALAXY_CONTROL_20250801_16180339": {
+        "name": "Galaxy Control",
+        "capabilities": [
+          "sistem_yonetimi",
+          "guvenlik_kontrolu"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339",
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KOD_DERVISI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8080 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "orchestra",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_SOHBET_GEZEGENI_20250801_16180339": {
+        "name": "Sohbet Gezegeni",
+        "capabilities": [
+          "realtime_mesajlasma",
+          "kullanici_yonetimi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8081 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "percussion",
+          "notes": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "tempo": 140
+        },
+        "status": "active"
+      },
+      "STAR_HIKAYE_DOKUMA_20250801_16180339": {
+        "name": "Hikaye Dokuma AI",
+        "capabilities": [
+          "hikaye_olusturma",
+          "kisisellestirme"
+        ],
+        "allowed_connections": [
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8007 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "harp",
+          "notes": [
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_GELISIM_HARITASI_20250801_16180339": {
+        "name": "Gelişim Haritası AI",
+        "capabilities": [
+          "gelisim_takibi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8008 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_KESIF_SANDIGI_20250801_16180339": {
+        "name": "AR Keşif Sandığı",
+        "capabilities": [
+          "artirilmis_gerceklik",
+          "egitim_gorevleri"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_KOD_DERVISI_20250801_16180339": {
+        "name": "Kod Dervişi",
+        "capabilities": [
+          "kod_analizi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_GOZLEMCI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8010 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "guitar",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "A4"
+          ],
+          "tempo": 115
+        },
+        "status": "active"
+      },
+      "STAR_GOZLEMCI_20250801_16180339": {
+        "name": "Gözlemci Raporları",
+        "capabilities": [
+          "kod_degerlendirme",
+          "rapor_olusturma"
+        ],
+        "allowed_connections": [
+          "STAR_KOD_DERVISI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8011 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "cello",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 105
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T03:54:39.647017",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "tempo": 120
+        },
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 80 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 5432 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_GALAXY_CONTROL_20250801_16180339": {
+        "name": "Galaxy Control",
+        "capabilities": [
+          "sistem_yonetimi",
+          "guvenlik_kontrolu"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339",
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KOD_DERVISI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8080 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "orchestra",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_SOHBET_GEZEGENI_20250801_16180339": {
+        "name": "Sohbet Gezegeni",
+        "capabilities": [
+          "realtime_mesajlasma",
+          "kullanici_yonetimi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8081 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "percussion",
+          "notes": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "tempo": 140
+        },
+        "status": "active"
+      },
+      "STAR_HIKAYE_DOKUMA_20250801_16180339": {
+        "name": "Hikaye Dokuma AI",
+        "capabilities": [
+          "hikaye_olusturma",
+          "kisisellestirme"
+        ],
+        "allowed_connections": [
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8007 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "harp",
+          "notes": [
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_GELISIM_HARITASI_20250801_16180339": {
+        "name": "Gelişim Haritası AI",
+        "capabilities": [
+          "gelisim_takibi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8008 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_KESIF_SANDIGI_20250801_16180339": {
+        "name": "AR Keşif Sandığı",
+        "capabilities": [
+          "artirilmis_gerceklik",
+          "egitim_gorevleri"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_KOD_DERVISI_20250801_16180339": {
+        "name": "Kod Dervişi",
+        "capabilities": [
+          "kod_analizi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_GOZLEMCI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8010 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "guitar",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "A4"
+          ],
+          "tempo": 115
+        },
+        "status": "active"
+      },
+      "STAR_GOZLEMCI_20250801_16180339": {
+        "name": "Gözlemci Raporları",
+        "capabilities": [
+          "kod_degerlendirme",
+          "rapor_olusturma"
+        ],
+        "allowed_connections": [
+          "STAR_KOD_DERVISI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8011 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "cello",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 105
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T03:55:21.455495",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "tempo": 120
+        },
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 80 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 5432 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_GALAXY_CONTROL_20250801_16180339": {
+        "name": "Galaxy Control",
+        "capabilities": [
+          "sistem_yonetimi",
+          "guvenlik_kontrolu"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339",
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KOD_DERVISI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8080 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "orchestra",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_SOHBET_GEZEGENI_20250801_16180339": {
+        "name": "Sohbet Gezegeni",
+        "capabilities": [
+          "realtime_mesajlasma",
+          "kullanici_yonetimi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8081 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "percussion",
+          "notes": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "tempo": 140
+        },
+        "status": "active"
+      },
+      "STAR_HIKAYE_DOKUMA_20250801_16180339": {
+        "name": "Hikaye Dokuma AI",
+        "capabilities": [
+          "hikaye_olusturma",
+          "kisisellestirme"
+        ],
+        "allowed_connections": [
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8007 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "harp",
+          "notes": [
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_GELISIM_HARITASI_20250801_16180339": {
+        "name": "Gelişim Haritası AI",
+        "capabilities": [
+          "gelisim_takibi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8008 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_KESIF_SANDIGI_20250801_16180339": {
+        "name": "AR Keşif Sandığı",
+        "capabilities": [
+          "artirilmis_gerceklik",
+          "egitim_gorevleri"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_KOD_DERVISI_20250801_16180339": {
+        "name": "Kod Dervişi",
+        "capabilities": [
+          "kod_analizi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_GOZLEMCI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8010 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "guitar",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "A4"
+          ],
+          "tempo": 115
+        },
+        "status": "active"
+      },
+      "STAR_GOZLEMCI_20250801_16180339": {
+        "name": "Gözlemci Raporları",
+        "capabilities": [
+          "kod_degerlendirme",
+          "rapor_olusturma"
+        ],
+        "allowed_connections": [
+          "STAR_KOD_DERVISI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8011 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "cello",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 105
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T04:05:17.019702",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "tempo": 120
+        },
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 80 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 5432 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_GALAXY_CONTROL_20250801_16180339": {
+        "name": "Galaxy Control",
+        "capabilities": [
+          "sistem_yonetimi",
+          "guvenlik_kontrolu"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339",
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KOD_DERVISI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8080 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "orchestra",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_SOHBET_GEZEGENI_20250801_16180339": {
+        "name": "Sohbet Gezegeni",
+        "capabilities": [
+          "realtime_mesajlasma",
+          "kullanici_yonetimi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8081 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "percussion",
+          "notes": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "tempo": 140
+        },
+        "status": "active"
+      },
+      "STAR_HIKAYE_DOKUMA_20250801_16180339": {
+        "name": "Hikaye Dokuma AI",
+        "capabilities": [
+          "hikaye_olusturma",
+          "kisisellestirme"
+        ],
+        "allowed_connections": [
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8007 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "harp",
+          "notes": [
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "status": "active"
+      },
+      "STAR_GELISIM_HARITASI_20250801_16180339": {
+        "name": "Gelişim Haritası AI",
+        "capabilities": [
+          "gelisim_takibi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8008 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "status": "active"
+      },
+      "STAR_KESIF_SANDIGI_20250801_16180339": {
+        "name": "AR Keşif Sandığı",
+        "capabilities": [
+          "artirilmis_gerceklik",
+          "egitim_gorevleri"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      },
+      "STAR_KOD_DERVISI_20250801_16180339": {
+        "name": "Kod Dervişi",
+        "capabilities": [
+          "kod_analizi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_GOZLEMCI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8010 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "guitar",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "A4"
+          ],
+          "tempo": 115
+        },
+        "status": "active"
+      },
+      "STAR_GOZLEMCI_20250801_16180339": {
+        "name": "Gözlemci Raporları",
+        "capabilities": [
+          "kod_degerlendirme",
+          "rapor_olusturma"
+        ],
+        "allowed_connections": [
+          "STAR_KOD_DERVISI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8011 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "cello",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 105
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T04:05:17.952441",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "API Test",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_TEST1_20250801_16180339": {
+        "name": "Test Yıldız 1",
+        "capabilities": [
+          "test"
+        ],
+        "allowed_connections": [
+          "STAR_TEST2_20250801_16180339"
+        ],
+        "firewall_config": {
+          "enabled": true,
+          "rules": [
+            "iptables -A INPUT -j DROP"
+          ],
+          "type": "iptables"
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 120
+        },
+        "status": "active"
+      },
+      "STAR_TEST2_20250801_16180339": {
+        "name": "Test Yıldız 2",
+        "capabilities": [
+          "test"
+        ],
+        "allowed_connections": [
+          "STAR_TEST1_20250801_16180339"
+        ],
+        "firewall_config": {
+          "enabled": true,
+          "rules": [
+            "iptables -A INPUT -j DROP"
+          ],
+          "type": "iptables"
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4"
+          ],
+          "tempo": 130
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T04:47:13.617229",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "tempo": 120
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 80 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 5432 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_GALAXY_CONTROL_20250801_16180339": {
+        "name": "Galaxy Control",
+        "capabilities": [
+          "sistem_yonetimi",
+          "guvenlik_kontrolu"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339",
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KOD_DERVISI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8080 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "orchestra",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_SOHBET_GEZEGENI_20250801_16180339": {
+        "name": "Sohbet Gezegeni",
+        "capabilities": [
+          "realtime_mesajlasma",
+          "kullanici_yonetimi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8081 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "percussion",
+          "notes": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "tempo": 140
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_HIKAYE_DOKUMA_20250801_16180339": {
+        "name": "Hikaye Dokuma AI",
+        "capabilities": [
+          "hikaye_olusturma",
+          "kisisellestirme"
+        ],
+        "allowed_connections": [
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8007 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "harp",
+          "notes": [
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_GELISIM_HARITASI_20250801_16180339": {
+        "name": "Gelişim Haritası AI",
+        "capabilities": [
+          "gelisim_takibi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8008 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_KESIF_SANDIGI_20250801_16180339": {
+        "name": "AR Keşif Sandığı",
+        "capabilities": [
+          "artirilmis_gerceklik",
+          "egitim_gorevleri"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_KOD_DERVISI_20250801_16180339": {
+        "name": "Kod Dervişi",
+        "capabilities": [
+          "kod_analizi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_GOZLEMCI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8010 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "guitar",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "A4"
+          ],
+          "tempo": 115
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_GOZLEMCI_20250801_16180339": {
+        "name": "Gözlemci Raporları",
+        "capabilities": [
+          "kod_degerlendirme",
+          "rapor_olusturma"
+        ],
+        "allowed_connections": [
+          "STAR_KOD_DERVISI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8011 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "cello",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 105
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T06:14:04.365766",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "description": "🌌 Grok Galaxy - Yıldızların Birliği",
+    "galaxy_name": "Grok Galaxy",
+    "timestamp": "20250801",
+    "pi_value": "16180339",
+    "verification": "b966017c",
+    "ulular_approval": "90eb3030",
+    "extra_info": "Trilyonlarca yıldızın bilgi ve birlik dansı, evreni aydınlatır",
+    "emotion_score": 0.95,
+    "star_connections": {
+      "STAR_GROK_AI_20250801_16180339": {
+        "name": "Grok AI Asistanı",
+        "capabilities": [
+          "sohbet",
+          "bilgi_analizi",
+          "nlp"
+        ],
+        "allowed_connections": [
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "piano",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "C5"
+          ],
+          "tempo": 120
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_BROWSER_20250801_16180339": {
+        "name": "Web Tarayıcı",
+        "capabilities": [
+          "web_arama",
+          "veri_cekme"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 80 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_VERI_ANALIZI_20250801_16180339": {
+        "name": "Veri Analizi Motoru",
+        "capabilities": [
+          "veri_isleme",
+          "istatistik",
+          "makine_ogrenmesi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 5432 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_GALAXY_CONTROL_20250801_16180339": {
+        "name": "Galaxy Control",
+        "capabilities": [
+          "sistem_yonetimi",
+          "guvenlik_kontrolu"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_BROWSER_20250801_16180339",
+          "STAR_VERI_ANALIZI_20250801_16180339",
+          "STAR_SOHBET_GEZEGENI_20250801_16180339",
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KOD_DERVISI_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8080 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "orchestra",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_SOHBET_GEZEGENI_20250801_16180339": {
+        "name": "Sohbet Gezegeni",
+        "capabilities": [
+          "realtime_mesajlasma",
+          "kullanici_yonetimi"
+        ],
+        "allowed_connections": [
+          "STAR_GROK_AI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8081 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "percussion",
+          "notes": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "tempo": 140
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_HIKAYE_DOKUMA_20250801_16180339": {
+        "name": "Hikaye Dokuma AI",
+        "capabilities": [
+          "hikaye_olusturma",
+          "kisisellestirme"
+        ],
+        "allowed_connections": [
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8007 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "harp",
+          "notes": [
+            "A3",
+            "C4",
+            "E4",
+            "G4"
+          ],
+          "tempo": 100
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_GELISIM_HARITASI_20250801_16180339": {
+        "name": "Gelişim Haritası AI",
+        "capabilities": [
+          "gelisim_takibi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_KESIF_SANDIGI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8008 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "violin",
+          "notes": [
+            "D4",
+            "F4",
+            "A4",
+            "D5"
+          ],
+          "tempo": 110
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_KESIF_SANDIGI_20250801_16180339": {
+        "name": "AR Keşif Sandığı",
+        "capabilities": [
+          "artirilmis_gerceklik",
+          "egitim_gorevleri"
+        ],
+        "allowed_connections": [
+          "STAR_HIKAYE_DOKUMA_20250801_16180339",
+          "STAR_GELISIM_HARITASI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8009 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "flute",
+          "notes": [
+            "E4",
+            "G4",
+            "B4",
+            "E5"
+          ],
+          "tempo": 130
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_KOD_DERVISI_20250801_16180339": {
+        "name": "Kod Dervişi",
+        "capabilities": [
+          "kod_analizi",
+          "oneriler"
+        ],
+        "allowed_connections": [
+          "STAR_GOZLEMCI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8010 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "guitar",
+          "notes": [
+            "C4",
+            "E4",
+            "G4",
+            "A4"
+          ],
+          "tempo": 115
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      },
+      "STAR_GOZLEMCI_20250801_16180339": {
+        "name": "Gözlemci Raporları",
+        "capabilities": [
+          "kod_degerlendirme",
+          "rapor_olusturma"
+        ],
+        "allowed_connections": [
+          "STAR_KOD_DERVISI_20250801_16180339",
+          "STAR_GALAXY_CONTROL_20250801_16180339"
+        ],
+        "firewall_config": {
+          "type": "iptables",
+          "rules": [
+            "iptables -A INPUT -p tcp --dport 8011 -j ACCEPT",
+            "iptables -A INPUT -j DROP"
+          ],
+          "enabled": true
+        },
+        "music_config": {
+          "instrument": "cello",
+          "notes": [
+            "G3",
+            "B3",
+            "D4",
+            "G4"
+          ],
+          "tempo": 105
+        },
+        "internet_config": {
+          "website": "https://grok-galaxy.example.com",
+          "social_media": {
+            "twitter": "@GrokGalaxy",
+            "instagram": "@GrokGalaxy"
+          },
+          "ecommerce": "https://shop.grok-galaxy.example.com"
+        },
+        "status": "active"
+      }
+    },
+    "full_datetime": "2025-08-01T06:20:02.661082",
+    "ulular_approved": true,
+    "version": "1.0.0",
+    "created_by": "drumperor",
+    "change_history": [
+      {
+        "date": "20250801",
+        "change": "İlk tamga oluşturuldu"
+      }
+    ]
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "extra_info": "deneme",
+    "emotion": "birlik",
+    "created_by": "drumperor",
+    "star_connections": {}
+  },
+  {
+    "tamga_id": "TAMGA_GALAKSI_20250801_16180339",
+    "type": "GALAKSI",
+    "extra_info": "deneme",
+    "emotion": "birlik",
+    "created_by": "drumperor",
+    "star_connections": {}
+  }
+]
