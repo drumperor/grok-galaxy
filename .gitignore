@@ -1,0 +1,11 @@
+# Ignore log and database files
+error_log.txt
+error_log.json
+grok_galaxy.db
+test_grok_galaxy.db
+# Ignore all MIDI files (large binaries)
+*.mid
+# Ignore Python cache
+env/
+__pycache__/
+*.pyc
